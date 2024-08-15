@@ -7,6 +7,9 @@
     margin: 0;
     padding: 0;
 }
+dark_two{
+    color: rgba(255, 255, 255, 0.5)
+}
 
 body{
     background: black;
@@ -18,6 +21,7 @@ body{
     max-width: 1060px;
     height: 46px;
     margin: 0 auto;
+    margin-top: 20px;
     /* border: 2px solid red;
      */
      
@@ -70,4 +74,154 @@ height: 46px;
 .moblie_menu{
     display: none;
     color: white;
+}
+
+
+/* banner css strat */
+
+.banner {
+    max-width: 1060px;
+    /* border: 2px solid rebeccapurple; */
+    
+    margin: 0 auto;
+    /* margin-bottom: 100px; */
+   margin-top: 100px;
+}
+
+.b-title {
+    color: white;
+    font-size: 78px;
+    font-weight: 900;
+
+}
+
+.span {
+    font-family: miama;
+    font-weight: 400;
+}
+
+.b-sub-title {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400px;
+    letter-spacing: 0.5px;
+}
+
+.btn-primary {
+    display: flex;
+    gap: 14px;
+
+}
+
+.btn-responsive {
+    display: none;
+}
+
+.btn {
+
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 16px 40px;
+    border-radius: 42px;
+
+}
+
+.btn-1 {
+    background: rgb(230, 83, 60);
+    border-style: none;
+}
+
+.btn-2 {
+    background-color: black;
+    border: 1px solid white;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.description {
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.b-sub-title {
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.banner-sub-conttainer {
+    position: relative;
+}
+
+.des-1 {
+    width: 12rem;
+    height: 6rem;
+    position: absolute;
+    top: 140px;
+    left: 230px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding-top: 10px;
+    text-align: center;
+}
+
+.des-2 {
+    color: white;
+    display: flex;
+    align-items: end;
+    width: 12rem;
+    height: 6rem;
+    ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    position: absolute;
+    top: 70%;
+    left: -23%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+
+}
+
+.banner-title-1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+
+.banner-sub-title-1 {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.banner-title-2 {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+}
+
+.banner-sub-title-2 {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.img-1 img {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+
 }
