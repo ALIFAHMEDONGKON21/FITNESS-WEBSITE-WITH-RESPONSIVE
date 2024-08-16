@@ -89,4 +89,50 @@
         gap: 20px;
     }
 
+    /* run part css */
+
+    .run_img{
+        display: none;
+    }
+    .run_img_res {
+        width: 100%;
+        display: block;
+        border-radius: 18px;
+    }
+    .run_ex_contanier {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+        margin: 0%;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .run_extra_taxt {
+        width: 100%;
+        height: auto;
+    }
+
+    .run_extra_taxt h2 {
+        font-size: 2rem;
+    }
+
+    .run_extra_taxt p {
+        font-size: 0.85rem;
+    }
+
+    .run_img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .btn_run {
+        width: 100%;
+        height: 50px;
+        margin-top: 20px;
+    }
+    
 }
