@@ -94,11 +94,11 @@
     .run_img{
         display: none;
     }
-    .run_img_res {
+    /* .run_img_res {
         width: 100%;
         display: block;
         border-radius: 18px;
-    }
+    } */
     .run_ex_contanier {
         display: flex;
         flex-direction: column;
@@ -107,7 +107,7 @@
         text-align: center;
         margin: 0%;
         gap: 20px;
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
     .run_extra_taxt {
@@ -127,11 +127,12 @@
         width: 100%;
         height: auto;
         margin-top: 20px;
+        display: block;
     }
 
     .btn_run {
-        width: 100%;
-        height: 50px;
+        width: 50%;
+        height: aut;
         margin-top: 20px;
     }
     
