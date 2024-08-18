@@ -344,7 +344,109 @@ height: 46px;
 }
 /* run enjoy res part end */
 
+/* table part */
+.bmi-left-container h3{
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: white;
+    padding-bottom: 50px;
+  }
+  .bmi-table{
+    border-collapse: collapse;
+    width: 320px;
+    height: 216px;
+    text-align: left;
+  }
+  .bmi-table th, td{
+    padding-left: 20px;
+  }
+  .bmi-table th{
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .bmi-table_name{
+    color: white;
+  }
+  .bmi-table td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.90rem;
+    font-weight: 400;
+  }
+  
+  .bmi-right-container {
+    margin-top: 60px;
+    width: 600px;
+  }
+  .bmi-right-container h3 {
+    font-size: 1.75rem;
+    font-weight: 900;
+    padding-bottom: 20px;
+    color: white;
+  }
+  .bmi-right-container p{
+    padding-bottom: 35px;
+  }
+  .input-field input,select{
+    width: 250px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: grey;
+  }
+  .input-field input {
+    padding-left: 25px;
+    width: 254px;
+  }
+  .input-field select{
+    padding-left: 21px;
+  }
+  .Sex{
+    width: 280px;
+  }
+  .input-field{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+   .factor{
+    margin-top: 15px;
+    width: 588px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+   }
+   .custom-calculate-btn{
+    padding-left: 60px;
+    padding-right: 60px;
+   }
 
+
+
+.input_table_container{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    background-color:  rgb(34, 34, 34);;
+    border: 2px saddlebrown solid;
+    
+}
+.bmi-calculator-section{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px saddlebrown sandybrown;
+}
+.btn_run2{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    color: white;
+    background: rgb(230, 83, 60);
+}
+
+
+
+/* team */
 .team_cantiner{
     border: 2px solid rebeccapurple;
     max-width: 1060px;
