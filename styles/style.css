@@ -529,3 +529,72 @@ background: rgba(0, 0, 0, 0.2);
     color: rgba(255, 255, 255, 0.5);
     gap: 20px;
 }
+/* fotter part her */
+.footer_all_container{
+    width: 100%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 100px;
+}
+.fotter_barnd{
+    width: 443px;
+height: 176px;
+border: 1px saddlebrown solid;
+margin-top: 50px;
+}
+
+.fotter_barnd h2{
+    font-weight: 800;
+    font-size: 4rem;
+    color: rgb(230, 83, 60);
+}
+
+.fotter_contack{
+    width: 181px;
+height: 249px;
+margin-top: 66px;
+border: 1px slateblue solid;
+
+}
+.fotter_contack h2{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.fotter_contack p{
+    font-weight: 400;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.footer_text_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fotter_contack h2{
+    color: white;
+    
+}
+.fotter_barnd h2{
+     margin-bottom: 20px;
+}
+.fotter_contack p{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.fotter_bar_line{
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    max-width: 1060px;
+    margin:  0 auto;
+}
+.fotter_bar_line p{
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+    text-align: center;
+}
