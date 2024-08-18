@@ -229,5 +229,17 @@
     width: 300px;
    }
 
+/* footer part here */
+.footer_text_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+}
+.fotter_barnd{
+    width: 90%;
+}
+.fotter_bar_line{
+    width: 90%;
+}
 }
