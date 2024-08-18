@@ -382,3 +382,48 @@ background: rgba(0, 0, 0, 0.2);
     background: rgba(255, 255, 255, 0.1);
     gap: 20px;
 }
+
+
+
+
+/* sp parrt css */
+.join_now_container{
+    max-width: 1060px;
+    margin: 0 auto;
+    margin-top: 100px;
+    /* border: 2px saddlebrown solid;
+} */
+}
+
+.join_plan_contianer{
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    max-width: 1060px;
+    margin: 0% auto;
+    margin-top: 50px;
+   
+    border-radius: 18px;
+}
+.plan_1{
+    background: rgba(255, 255, 255, 0.1);
+    color: aliceblue;
+    border-radius: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+    
+}
+.plan_1 h1{
+     font-size: 2rem;
+     font-size: 600;
+     
+}
+.plan_1 h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.plan_1 p{
+    color: rgba(255, 255, 255, 0.5);
+    gap: 20px;
+}

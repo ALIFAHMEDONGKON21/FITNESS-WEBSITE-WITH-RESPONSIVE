@@ -139,7 +139,6 @@
     
 
     /* team part  */
-
     .team_img_contanier{
 
         display: grid;
@@ -157,4 +156,28 @@
     .team_img_contanier img{
         align-items: center;
     }
+
+
+   /* sp part */
+   .join_plan_contianer{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        justify-items: center;
+        border-radius: 18px;
+        width: 320px;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 20px;
+
+   }
+   .plan_1{
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    height: auto;
+    width: 300px;
+   }
+
+
 }
