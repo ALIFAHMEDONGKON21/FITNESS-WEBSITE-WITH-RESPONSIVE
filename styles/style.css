@@ -14,6 +14,10 @@
 body{
     background: black;
 }
+
+ .headr{
+    background: linear-gradient(rgb(17, 17, 17), rgba(119, 119, 119, .35), rgb(0, 0, 0));
+}
 .nav_bar{
     flex-direction: row;
     justify-content: space-between;
@@ -21,7 +25,7 @@ body{
     max-width: 1060px;
     height: 46px;
     margin: 0 auto;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     /* border: 2px solid red;
      */
      
@@ -427,14 +431,14 @@ height: 46px;
     height: auto;
     margin-top: 100px;
     background-color:  rgb(34, 34, 34);;
-    border: 2px saddlebrown solid;
-    
+    /* border: 2px saddlebrown solid;
+     */
 }
 .bmi-calculator-section{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    border: 1px saddlebrown sandybrown;
+    /* border: 1px saddlebrown sandybrown; */
 }
 .btn_run2{
     width: 224px;
@@ -448,7 +452,7 @@ height: 46px;
 
 /* team */
 .team_cantiner{
-    border: 2px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple; */
     max-width: 1060px;
     margin: 0% auto;
     margin-top: 100px;
@@ -489,10 +493,18 @@ background: rgba(0, 0, 0, 0.2);
 
 
 /* sp parrt css */
+
+.join_plan{
+    max-width: 1060px;
+    height: auto;
+    margin: 0% auto;
+    background: linear-gradient(rgb(17, 17, 17), rgba(119, 119, 119, .35), rgb(0, 0, 0));
+}
 .join_now_container{
     max-width: 1060px;
     margin: 0 auto;
     margin-top: 100px;
+   
     /* border: 2px saddlebrown solid;
 } */
 }
@@ -539,7 +551,7 @@ background: rgba(0, 0, 0, 0.2);
 .fotter_barnd{
     width: 443px;
 height: 176px;
-border: 1px saddlebrown solid;
+/* border: 1px saddlebrown solid; */
 margin-top: 50px;
 }
 
@@ -553,7 +565,7 @@ margin-top: 50px;
     width: 181px;
 height: 249px;
 margin-top: 66px;
-border: 1px slateblue solid;
+/* border: 1px slateblue solid; */
 
 }
 .fotter_contack h2{
